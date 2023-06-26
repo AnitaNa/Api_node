@@ -1,6 +1,6 @@
-const mongoos = require('mongoose');
+const mongoose = require('mongoose');
 
-const productSchema = mongoos.Schema(
+const productSchema = mongoose.Schema(
     {
         name: {
             type: String,
